@@ -1,25 +1,36 @@
-html, #container {
-  top: 2%;
-  left: 5%;
-  right: 5%;
-  bottom: 100px;
-  padding: 10px;
-}
+/* Global CSS */
+
+
+/* card styling */
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: .3s;
-  width: 50%;
+  transition: 0.3s;
 }
+
+/* card title styling */
+
 .card-title {
   text-align: center;
   font-size: 2em;
   color: #4F3674;
   font-weight: 400;
 }
+
+/* card content styling */
+
 .card-content {
   padding: 2px 16px;
 }
-.card:hover {}
+
+/* card hover styling */
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+
 .btn {
   border: none;
   text-align: center;
@@ -31,6 +42,23 @@ html, #container {
   padding: 15px 32px;
   color: black;
 }
+
+/* Primary button styling */
+
+.btn-primary {
+  background-color: #4F3674;
+  color: white;
+}
+
+/* Button Hover styling */
+
+.btn-primary:hover {
+  background-color: #D6A800;
+  color:#4F3674;
+}
+
+/* Input styling */
+
 .input {
   padding: 12px 20px;
   margin: 8px 0;
@@ -39,21 +67,22 @@ html, #container {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.btn-primary {
-  background-color: #4F3674;
-  color: white
-}
-.btn-primary:hover {
-  background-color: #D6A800;
-  color: #4F3674
-}
+
+/* extend full width */
+
 .full-width {
   width: 100%;
 }
+
+/* Form styling */
+
 .form {
-  display: -ms-inline-grid;
+  display: inline-grid;
   grid-template-columns: auto;
 }
+
+/* Form field styling */
+
 .form-field {
   padding: 20px;
 }

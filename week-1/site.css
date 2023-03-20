@@ -1,38 +1,42 @@
-html, body {
+/* site.css */
+
+body {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
-}
-h1 {
+  }
+  
+/* container stylings */
+
+  .container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+/* header stylings */
+
+  h1, h2, h3, h4 {
     background-color: #3C275A;
     color: white;
-    border: solid 1px #D6A800;
+    border: 1px solid #D6A800;
     padding: 10px;
-}
-h2 {
-    background-color: #3C275A;
-    color: white;
-    border: solid 1px #D6A800;
-    padding: 10px;
-}
-h3 {
-    background-color: #3C275A;
-    color: white;
-    border: solid 1px #D6A800;
-    padding: 10px;
-}
-h4 {
-    background-color: #3C275A;
-    color: white;
-    border: solid 1px #D6A800;
-    padding: 10px;
-}
-a {
+  }
+  
+/* list style */
+
+  li {
     color: #453674;
     text-decoration: none;
-}
-a:hover {
+  }
+  
+/* list hover style */
+
+  li:hover {
     background-color: #D6A800;
     color: #4F3674;
-}
-a:visited {
-    color: #3C275A
-}
+  }
+  
+/* visited list style */
+
+  li:visited {
+    color: #3C275A;
+  }
