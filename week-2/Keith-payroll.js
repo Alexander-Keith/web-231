@@ -12,22 +12,22 @@ const oneOne = "Ludwig"
 const twoOne = "Johann"
 const threeOne = "Wolfgang"
 
-//Assign variables for last names
+//Assigns variables for last names
 const oneTwo = "Beethoven"
 const twoTwo = "Bach"
 const threeTwo = "Mozart"
 
-//Assign Variables for addresses
+//Assigns Variables for addresses
 const oneThree = "505 main street"
 const twoThree = "512 main street"
 const threeThree = "600 main street"
 
-//Assign Variables for dates
+//Assigns Variables for dates
 const oneFour = new Date().toLocaleDateString('en-US');
 const twoFour = new Date().toLocaleDateString('en-US');
 const threeFour = new Date().toLocaleDateString('en-US');
 
-//Assign Variables for pay rates
+//Assigns Variables for pay rates
 const oneFive = 18.9.toFixed(1);
 const twoFive = 25.5.toFixed(1);
 const threeFive = 50.1.toFixed(1);
