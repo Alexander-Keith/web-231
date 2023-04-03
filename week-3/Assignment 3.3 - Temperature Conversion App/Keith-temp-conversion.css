@@ -1,0 +1,19 @@
+/*
+=================================================
+;  Title: Keith-temp-conversion.css
+;  Author: Alexander Keith
+;  Date: 4/2/2023
+;  Description: Keith-temp-conversion.css file for assignment Exercise 3.3 - Temperature Conversion App
+;================================================
+*/
+
+/* Provides card padding and margin */
+.card{
+    margin:auto;
+    text-align: center;
+}
+
+/* styling for conversion results */
+#calculate{
+    font-size:30px;
+}
