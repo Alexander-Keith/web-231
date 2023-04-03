@@ -1,0 +1,48 @@
+<!--
+=================================================
+;  Title: favorites.html
+;  Author: Alexander Keith
+;  Date: 4/2/2023
+;  Description: favorites.html file for assignment Exercise 3.2 - Favorites App
+;================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+</html>
+    <head>
+        <title>WEB 231 – Enterprise JavaScript I: Exercise 3.2</title>
+        <!-- CSS styles for the HTML -->
+        <link href="Keith-favorites.css" type="text/css"  rel="stylesheet">
+        <link href="Keith-global.css" type="text/css"  rel="stylesheet">
+        <!-- Link to the Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <!-- Code for the body of the web page -->
+    <body>
+        <div class="main">
+            <div id="container">
+                <h1 class="app-header">Welcome to the Favorites App!</h1>
+                <!--Display a card with a title-->
+                <div class="card">
+                    <p class="card-title">My Favorites</p>
+                    <!-- Four buttons linked to JavaScript onclick alerts -->
+                    <div class="card-content">
+                        <button class="btn btn-primary" onclick="favoriteTeam()">Favorite Sports Team</button>
+                        <button class="btn btn-primary" onclick="favoriteBook()">Favorite Book</button>
+                        <button class="btn btn-primary" onclick="favoriteAuthor()">Favorite Author</button>
+                        <button class="btn btn-primary" onclick="favoriteLanguage()">Favorite Programming Language</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- link to Return to Page -->
+        <a href="https://alexander-keith.github.io/web-231/" class="return-home">Return</a>
+        <!-- Link to JavaScript before the closing of body -->
+        <script src="Keith-favorites.js"></script>
+        </div>
+    </body>
+</html>

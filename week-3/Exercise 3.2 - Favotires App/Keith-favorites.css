@@ -1,0 +1,21 @@
+/*
+=================================================
+;  Title: favorites.css
+;  Author: Alexander Keith
+;  Date: 4/2/2023
+;  Description: favorites.css file for assignment Exercise 3.2 - Favorites App
+;================================================
+*/
+
+/* provides card padding and margin */
+.card {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/* aligns card content */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
