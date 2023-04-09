@@ -1,0 +1,20 @@
+/*
+=================================================
+;  Title: Keith-number-game.css
+;  Author: Alexander Keith
+;  Date: 4/8/2023
+;  Description: Keith-number-game.css file for assignment 4.2 - Number Guessing Game
+;================================================
+*/
+
+/* Provides card padding and margin */
+.card{
+    margin:auto;
+    text-align: center;
+}
+
+/* styling for conversion results */
+#Results{
+    font-size: 30px;
+    text-align: center;
+}

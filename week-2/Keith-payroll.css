@@ -7,18 +7,12 @@
 ;================================================
 */
 
-/* Links to the html file */
-
-html
-
 /* Provides the border layout for the html */
-
 .list {
     border: 1px dotted red;
 }
 
 /* Position the text center for id */
-
 #payroll-header {
     text-align: center;
 }
