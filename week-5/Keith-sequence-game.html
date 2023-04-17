@@ -29,17 +29,16 @@
               <p class="card-title">Sequence Selection Form</p>
               <!-- Text input field with dropdown select elements-->
               <div class="card-content">
-                <label for="sequence">Choose a number sequence: </label>
-                  <select name="sequence" id="choice">
-                    <option value="numbers">--Select--</option>
+                <P>Choose a number sequence
+                  <select id="choice">
+                    <option value="none">--Select--</option>
                     <option value="numbers">Numbers</option>
-                    <option value="numbers">Even Numbers</option>
-                    <option value="numbers">Odd Numbers</option>
+                    <option value="even">Even Numbers</option>
+                    <option value="odd">Odd Numbers</option>
                   </select>
-               
               </div>
                <!-- Submit Button-->
-               <button class="btn btn-primary" onclick="submit()">Display Sequence</button>
+               <button class="btn btn-primary" onclick="displaySequence()">Display Sequence</button>
             </div>
             <!-- Display a card Conversion Results -->
             <div class="card">
