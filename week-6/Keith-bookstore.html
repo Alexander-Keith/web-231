@@ -1,0 +1,56 @@
+<!--
+=================================================
+;  Title: Keith-bookstore.html
+;  Author: Alexander Keith
+;  Date: 4/15/2023
+;  Description: Keith-bookstore.html file for assignment 6.2 - Bookstore App
+;================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WEB 231 – assignment 5.2 - Sequence Game</title>
+    <!-- CSS styles for the HTML -->
+    <link href="Keith-bookstore.css" type="text/css"  rel="stylesheet">
+    <link href="Keith-global.css" type="text/css"  rel="stylesheet">
+    <!-- Link to the Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+    <!-- Code for the body of the web page -->
+    <body>
+      <div class="main">
+        <div id="container">
+          <h1 class="app-header">Welcome to the Bookstore App</h1>
+            <!-- Display a card with a title -->
+            <div class="card">
+              <p class="card-title">My Favorites</p>
+              <!-- Text input field with dropdown select elements-->
+              <div class="card-content">
+                <P>Choose a listing:
+                  <select id="choice">
+                    <option value="none">--Select--</option>
+                    <option value="books">Top 3 Favorite Books</option>
+                    <option value="authors">Top 3 Favorite Authors</option>
+                    <option value="publishers">Top 3 Favorite Publishers</option>
+                  </select>
+                </P>
+              </div>
+               <!-- Submit Button-->
+               <button class="btn btn-primary" onclick="display()">Display Listing</button>
+            </div>
+            <!-- Display a card Conversion Results -->
+            <div class="card">
+              <h1 class="card-title">Results</h1>
+                  <p id="results"></p>
+            </div>
+            <!-- link to Return to Page -->
+            <a href="https://alexander-keith.github.io/web-231/" class="return-home">Return</a>
+        </div>
+            <!-- Link to JavaScript before the closing of body -->
+            <script src="Keith-bookstore.js"></script>
+        </div>     
+    </body>
+</html>
