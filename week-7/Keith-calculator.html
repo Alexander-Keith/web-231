@@ -1,0 +1,70 @@
+<!--
+=================================================
+;  Title: Keith-calculator.html
+;  Author: Alexander Keith
+;  Date: 4/30/2023
+;  Description: Keith-calculator.html file for assignment 7.2 - Calculator App
+;================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WEB 231 – assignment 7.2 - Calculator App</title>
+    <!-- CSS styles for the HTML -->
+    <link href="Keith-calculator.css" type="text/css"  rel="stylesheet">
+    <link href="Keith-global.css" type="text/css"  rel="stylesheet">
+    <!-- Link to the Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+    <!-- Code for the body of the web page -->
+    <body>
+      <div class="main">
+        <div id="container">
+          <h1 class="app-header">Welcome to the Calculator App!</h1>
+            <!-- multiply calc-container -->
+            <div class="calc-container">
+              <div class="card">
+                <p class="card-title">Multiply Form</p>
+                <!--two inputs to multiply-->
+                <div class="card-content">
+                  <input type="text" id="input1"><br>
+                  <input type="text" id="input2"><br>
+                  <!--Submit Button-->
+                  <button class="btn btn-primary" onclick="displayMultiplyResults()">Multiply</button>
+                </div>
+              </div>
+              <!-- Display Conversion Results-->
+              <div class="card" id="results1">
+                <h1 class="card-title">Results</h1>
+                <p id="mul-results"></p>
+              </div>
+            </div>
+          </div>
+          <!--division calc-container-->
+          <div class="calc-container">
+            <div class="card" id="card">
+              <p class="card-title">Divide Form:</p>
+              <!--two inputs to divide-->
+              <div class="card-content">
+                <input type="text" id="input3"><br>
+                <input type="text" id="input4"><br>
+                <!-- Submit Button-->
+                <button class="btn btn-primary" onclick="displayDivideResults()">Divide</button>
+              </div>
+            </div>
+            <!-- Display Conversion Results-->
+            <div class="card" id="results2">
+              <h1 class="card-title">Results</h1>
+                <p id="div-results"></p>
+            </div>
+          </div>
+            <!-- link to Return to Page -->
+            <a href="https://alexander-keith.github.io/web-231/" class="return-home">Return</a>
+        </div>
+            <!-- Link to JavaScript before the closing of body -->
+            <script src="Keith-calculator.js"></script>
+    </body>
+</html>
