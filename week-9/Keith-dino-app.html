@@ -19,36 +19,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
-    <!-- Code for the body of the web page -->
-    <body>
-      <div class="main">
-        <div id="container">
-          <h1 class="app-header">Welcome to the Dino App!</h1>
-            <!-- Drop down menu -->
-            <div class="card">
-                <p class="card-title">Dino Form</p>
-                  <!--drop down selection for 3 choices-->
-              <div class="card-content">
-                <p>Choose a listing:
-                  <select id="selection">
-                    <option value="none">--Select--</option>
-                    <option value="books">Top 3 Favorite Books</option>
-                    <option value="authors">Top 3 Favorite Authors</option>
-                  </select>
-                </p>  
-                <!-- Display listings-->
-              </div>
-                <button type="button" class="btn btn-primary" onclick="display()">Submit</button>
-            </div>
-            <div class="card">
-              <p class="card-title">Results</p>
-              <p id="results"></p>
-            </div>
+  <body>
+    <div class="main">
+      <div id="container">
+        <h1 class="app-header">Welcome to the Dino App!</h1>
+        <!-- Drop down menu -->
+        <div class="card">
+          <p class="card-title">Dino Form</p>
+          <!-- Radio button choices -->
+          <div class="card-content">
+            <fieldset>
+              <legend>Select an option</legend>
+              <input type="radio" name="dino" id="giga" value="gigantosaurus">
+                <label for="giga">How does a Gigantosaurus roar?</label>
+                <br>
+                <input type="radio" name="dino" id="rex" value="tyrannosaurus">
+                <label for="rex">How does a Tyrannosaurus growl?</label>
+                <br>
+                <input type="radio" name="dino" id="raptor" value="velociraptor">
+                <label for="raptor">How does a Velociraptor awk?</label>
+            </fieldset>  
+          </div>
+          <!-- Button to submit the form -->
+          <button type="button" class="btn btn-primary" onclick="display()">Submit</button>
         </div>
-            <!-- link to Return to Page -->
-            <a href="https://alexander-keith.github.io/web-231/" class="return-home">Return</a>
+        <!-- Card to display results -->
+        <div class="card">
+          <p class="card-title">Results</p>
+          <p id="results"></p>
+        </div>
       </div>
-            <!-- Link to JavaScript before the closing of body -->
-            <script src="Keith-dino-app.js"></script>
-    </body>
+      <!-- Link to return to homepage -->
+      <a href="https://alexander-keith.github.io/web-231/" class="return-home">Return</a>
+    </div>
+    <!-- Link to JavaScript file -->
+    <script src="Keith-dino-app.js"></script>
+  </body>
 </html>

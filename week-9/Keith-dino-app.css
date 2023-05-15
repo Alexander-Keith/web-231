@@ -16,8 +16,8 @@
 }
 
 /* styling for conversion results */
-#results1, #results2{
-    text-align: left;
+#results{ 
+    text-align: center;
     width: 100%;
 }
 
@@ -34,8 +34,9 @@ h3{
     grid-template-columns: 1fr 1fr;
 }
 
-/*Center result text and set font size*/
-#mul-results, #div-results{
-    font-size: 28px;
-    text-align: center;
-}
+/* aligns title and contents left */
+fieldset{
+    text-align: left;
+ }
+
+ 

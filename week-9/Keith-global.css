@@ -57,6 +57,7 @@ body {
 .btn-primary {
     background-color: #4F3674;
     color: white;
+    width: 80%;
 }
 
 /* Button Hover styling */
